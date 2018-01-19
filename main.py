@@ -74,6 +74,7 @@ def main_function():
         print('For more information run use --help')
         exit(0)
 
+
 # ОСНОВНОЙ КОД
 if __name__ == '__main__':
     main_function()
