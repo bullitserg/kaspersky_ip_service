@@ -13,7 +13,7 @@ RELEASE_DATE = '2018-01-17'
 
 
 def show_version():
-    print(PROGNAME, VERSION, '\n', DESCRIPTION, '\nAuthor:', AUTHOR, '\nRelease date:', RELEASE_DATE)
+    print('\n', PROGNAME, '\n', VERSION, '\n', DESCRIPTION, '\nAuthor:', AUTHOR, '\nRelease date:', RELEASE_DATE, '\n')
 
 
 # обработчик параметров командной строки

@@ -7,6 +7,7 @@ def trade_ip_worker():
     logger = logger_module.logger()
 
     try:
+        logger.info('Инициализация')
         # получаем множество адресов по торгам за следующий день
         add_ip_list = functions.get_trade_ip()
 
