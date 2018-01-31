@@ -51,14 +51,13 @@ def sended_ip_setting(id_for_send_list):
 # функция отправки пакетов для добавления в белый список
 def add_ip_to_white(ip_list):
     kaspersky_sender = KasperskyWorker()
-    # return kaspersky_sender.add_ip_list(ip_list, list_type='white')
-    return True, False
+    return kaspersky_sender.add_ip_list(ip_list, list_type='white')
+
 
 # delete_ip_module
 def delete_ip_from_white(ip_list):
     kaspersky_sender = KasperskyWorker()
-    # return kaspersky_sender.delete_ip_list(ip_list, list_type='white')
-    return True, False
+    return kaspersky_sender.delete_ip_list(ip_list, list_type='white')
 
 
 def get_kaspersky_delete_login_ip(dictionary):
